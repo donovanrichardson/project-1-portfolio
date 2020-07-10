@@ -40,6 +40,7 @@ in every category.
 The following requirements **_must_** be met in order for the project to be
 considered complete:
 
+- Mobile first!
 - The project is deployed to GitHub Pages or a custom domain
 - The application renders in the browser and runs without errors
 - The repo has a README that adequately documents the project
