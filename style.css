@@ -7,9 +7,19 @@ body{
     backface-visibility: hidden; */
 }
 
+ul{
+    width: 100vw;
+    left: -50px;
+    position: relative;
+}
+
 .frost{
     background-color: #ffffff7f;
     padding: 50px;
+}
+
+.gray{
+    background-color: #7f7f7f7f;
 }
 
 h1{
@@ -21,9 +31,23 @@ h1{
     /* margin: 0 35%; this should be in a media query */
 }
 
-form > *{
+form > :not([type='submit']){
     margin: 5px;
     display:block; 
+    width: 100%
+}
+
+.projects > article{
+    border-radius: 1em;
+}
+
+.projects p{
+    padding: 5px 10px;
+}
+
+.projects h3{
+    text-align: center;
+    border-bottom: 1px solid black;
 }
 
 [type='submit']{
