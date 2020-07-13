@@ -1,3 +1,10 @@
+# RED ALERT!!!
+My homework due on Monday July 13th can be found at [planning.md](planning.md)
+
+
+
+
+
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Unit 1 Project - Build a portfolio site
 
 #### Overview
