@@ -1,0 +1,31 @@
+body{
+    background: url('https://upload.wikimedia.org/wikipedia/commons/a/a1/Back_Bay_skyline_from_Arnold_Arboretum_(2)%2C_November_1975.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    /*  background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden; */
+}
+
+.frost{
+    background-color: #ffffff7f;
+    padding: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+.form{ /* the section with class form */
+    /* margin: 0 35%; this should be in a media query */
+}
+
+form > *{
+    margin: 5px;
+    display:block; 
+}
+
+[type='submit']{
+    margin: 0 0 0 50%;
+}
