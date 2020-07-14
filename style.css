@@ -4,8 +4,9 @@
 body{
     background: url('https://upload.wikimedia.org/wikipedia/commons/a/a1/Back_Bay_skyline_from_Arnold_Arboretum_(2)%2C_November_1975.jpg');
     background-attachment: fixed;
+    background-size: cover;
     background-position: center;
-    overflow-x:hidden; /* https://stackoverflow.com/a/23367521/9608521 */
+    /* overflow-x:hidden; https://stackoverflow.com/a/23367521/9608521 */
     /*  background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden; */
@@ -26,7 +27,14 @@ ul{
     background-color: #7f7f7f7f;
 }
 
-@media(min-width:600px){
+@media(min-width:700px){
+
+    h1{
+        text-align: center;
+        font-size: 3em;
+    }
+
+    
     .bar{
         padding: 0;
         display:grid;
@@ -62,6 +70,17 @@ ul{
     
     .sections{
         display:flex;
+    }
+
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .projects > article{
+        width: calc(25% + 30px);
+        /* flex: 1fr 1fr calc(33% - 2rem); */
     }
 
 
