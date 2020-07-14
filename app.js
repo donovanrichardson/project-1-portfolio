@@ -25,6 +25,7 @@ const app = (projects) => {
         $art.append($('<h3>').text(project.title))
         // $div.append($('<img>').attr('src', project.image))
         $art.append($('<p>').addClass("description").text(project.description))
+        $art.append($('<img>').attr('src',project.image).attr('alt',project.title))
         // $div.append($('<a>').attr('href', project.url).text("LINK >>"))
         return $art
     }
