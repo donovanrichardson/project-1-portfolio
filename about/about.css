@@ -14,6 +14,7 @@ h1{
     position: relative;
     top: 0;
     left: 0;
+    text-align: center;
 }
 
 .pic{
@@ -22,9 +23,14 @@ h1{
 }
 
 #mariah{
-    position: absolute;
-    width: 80px;
-    top: max(80px, 6.5vw);
-    left: 200px;
+    position: relative;
+    height: 200%;
+    top: -100%;
+}
+
+.prof{
+    /* display:flex; */ /* text-align: center; in .text will center the pic. if you take that out, this will also center the pic */
+    height: 50px;
+    /* border: 1px solid black; */
 }
 
