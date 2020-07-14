@@ -4,16 +4,19 @@ const proj = (url) =>{
     fetch(url)
     .then(resp => resp.json())
     .then(data =>{
+        console.log(data)
         const projects = data.feed.entry.map(e=>{
-            console.log(e)
+            // console.log(e)
             return{
+                display: Number(e.gsx$display.$t),
                 title: e.gsx$title.$t,
                 image: e.gsx$image.$t,
                 description: e.gsx$description.$t,
                 url: e.gsx$url.$t
             }
         })
-        app(projects)
+        console.log(projects)
+        app(projects.filter(e=>e.display))
     })
 }
 

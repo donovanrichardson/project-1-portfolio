@@ -83,6 +83,11 @@ ul{
         /* flex: 1fr 1fr calc(33% - 2rem); */
     }
 
+    .form{ /* the section with class form */
+        margin: 0 auto; 
+        width: 400px;
+    }
+
 
 }
 
@@ -92,10 +97,6 @@ h1{
 }
 h2{
     text-align: center;
-}
-
-.form{ /* the section with class form */
-    /* margin: 0 35%; this should be in a media query */
 }
 
 form > :not([type='submit']){
