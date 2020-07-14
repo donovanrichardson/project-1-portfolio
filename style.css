@@ -29,7 +29,25 @@ ul{
 @media(min-width:600px){
     .bar{
         padding: 0;
-        display:flex;
+        display:grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        justify-content: space-between;
+    }
+
+    .bar li{
+        margin: 0 60px;
+    }
+
+    #home{
+        grid-column: 1/2;
+    }
+
+    #others{
+        grid-column: 3/4;
+    }
+
+    #others > ul{
+        display: flex;
         justify-content: space-between;
     }
     
@@ -45,6 +63,8 @@ ul{
     .sections{
         display:flex;
     }
+
+
 }
 
 h1{
