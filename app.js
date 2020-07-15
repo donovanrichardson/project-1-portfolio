@@ -43,7 +43,7 @@ const app = (projects) => {
 
 proj(url)
 
-const clicked = false;
+let clicked = false;
 
 $('.button').on('click', ()=>{
     $('.fa-bars').css('color', clicked ? '' : 'red');
