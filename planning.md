@@ -4,9 +4,9 @@
 
 |Component|Priority|Estimated Time|Time invested|Actual Time|
 |-|-|-|-|-|
-|Home Page Style|H|4h|2h|-|
-|Home Page Content|H|3h|.5h|-|
-|About Me (content and styling|M|3h|1.5h|-|
+|Home Page Style|H|4h|4h|-|
+|Home Page Content|H|3h|1.5h|-|
+|About Me (content and styling|M|3h|2h|-|
 |Contact Me form|H|4h|.25h|-|
 |LI GH links|M|1.5h|-|-|
 |Screenshots|M|4h|-|-|
