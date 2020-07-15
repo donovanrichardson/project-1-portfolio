@@ -29,7 +29,7 @@ nav{
 .bar li{
     display: block;
     flex-direction: row;
-    max-width: 100px; /* idk if i wanna keep this */
+    /* max-width: 200px; */ /* idk if i wanna keep this */ /* .bar's displat:flex made me not need this */
 }
 
 
@@ -45,7 +45,17 @@ nav{
 }
 
 .collapsible{
+    background-color:#c1e2e8;
+    border: 5px solid #7f7f7f;
+    border-radius: 15px;
     display:none;
+    position: absolute;
+    right: -20px;
+    max-width: 300px;
+}
+
+.collapsible li{
+    margin: 15px;
 }
 
 .sub-menu-1{
