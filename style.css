@@ -1,12 +1,13 @@
 :root{
     --width: 100%
 }
+
 body{
     background: url('https://upload.wikimedia.org/wikipedia/commons/a/a1/Back_Bay_skyline_from_Arnold_Arboretum_(2)%2C_November_1975.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    /* overflow-x:hidden; https://stackoverflow.com/a/23367521/9608521 */
+    overflow-x:hidden; /* https://stackoverflow.com/a/23367521/9608521 */
     /*  background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden; */
@@ -26,7 +27,7 @@ nav{
     justify-content: space-between;
 }
 
-.bar li{
+.bar li{ /* for lis in nav */
     display: block;
     flex-direction: row;
     /* max-width: 200px; */ /* idk if i wanna keep this */ /* .bar's displat:flex made me not need this */
@@ -86,7 +87,7 @@ nav{
         /* justify-content: space-around; */
     }
 
-    .bar li{
+    .bar li{ /* for lis in nav */
         margin: 0 60px;
     }
     
@@ -104,7 +105,7 @@ nav{
         justify-content: space-around;
     }
     
-    .bar li{
+    .bar li{ /* for lis in nav */
         display: block;
         flex-direction: row;
     }
@@ -158,6 +159,13 @@ nav{
     }
 
 
+
+    /* hide mobile bar */
+    .collapsible, .collapsible *{
+        display: none;
+    }
+
+
 }
 
 h1{
@@ -196,6 +204,10 @@ form > :not([type='submit']){
 .projects img{
     width: 90%;
     margin-bottom: 20px;
+}
+
+.desktop{
+    display: none;
 }
 
 [type='submit']{
