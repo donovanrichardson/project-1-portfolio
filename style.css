@@ -18,6 +18,37 @@ ul{
     position: relative;
 }
 
+.button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: 3px solid #fff;
+    color: #fff;
+    /* https://github.com/codeSTACKr/hamburger-animation */
+    /* https://www.youtube.com/watch?v=dIyVTjJAkLw */
+}
+
+.button > *{
+    /* color: #fff;
+    font-size: 40px;
+    line-height: 0;
+    margin: auto; */
+}
+
+.burger{
+    width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  transition: all .5s ease-in-out;
+}
+
 .frost{
     background-color: #ffffff7f;
     padding: 50px;
@@ -38,7 +69,7 @@ ul{
     .bar{
         padding: 0;
         display:grid;
-        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-columns: 2fr 1fr 2fr .5fr;
         justify-content: space-between;
     }
 
