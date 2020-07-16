@@ -2,7 +2,7 @@
     --width: 100%
 }
 
-body{
+#homepage{
     background: url('https://upload.wikimedia.org/wikipedia/commons/a/a1/Back_Bay_skyline_from_Arnold_Arboretum_(2)%2C_November_1975.jpg');
     background-attachment: fixed;
     background-size: cover;

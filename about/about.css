@@ -14,12 +14,13 @@ h1{
     position: relative;
     top: 0;
     left: 0;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .pic{
-    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Abandoned_van_in_Marine_Park_%2891076%29.jpg/1024px-Abandoned_van_in_Marine_Park_%2891076%29.jpg');
+    background: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Time_Between_Edits_Graph_Jul05-Present.png');
     background-position: center;
+    background-size: cover;
 }
 
 #mariah{
@@ -31,6 +32,7 @@ h1{
 .prof{
     /* display:flex; */ /* text-align: center; in .text will center the pic. if you take that out, this will also center the pic */
     height: 50px;
+    text-align: center;
     /* border: 1px solid black; */
 }
 
