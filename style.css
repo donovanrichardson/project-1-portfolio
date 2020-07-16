@@ -79,6 +79,7 @@ nav{
 .frost{
     background-color: #ffffff7f;
     padding: 50px;
+    min-height: 100vh;
 }
 
 .gray{

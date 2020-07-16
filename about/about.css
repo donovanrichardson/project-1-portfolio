@@ -1,5 +1,6 @@
 body{
     background-color: #ecccff;
+    padding:50px;
 }
 
 h1{
@@ -34,5 +35,9 @@ h1{
     height: 50px;
     text-align: center;
     /* border: 1px solid black; */
+}
+
+.form{
+    display: none;
 }
 

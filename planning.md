@@ -4,13 +4,13 @@
 
 |Component|Priority|Estimated Time|Time invested|Actual Time|
 |-|-|-|-|-|
-|Home Page Style|H|4h|4h|-|
+|Home Page Style|H|4h|7h|-|
 |Home Page Content|H|3h|1.5h|-|
-|About Me (content and styling|M|3h|2h|-|
+|About Me (content and styling|M|3h|3h|-|
 |Contact Me form|H|4h|.25h|-|
-|LI GH links|M|1.5h|-|-|
-|Screenshots|M|4h|-|-|
-|Deploy|H|4h|-|-|
+|LI GH links|M|1.5h|.5h|-|
+|Screenshots|M|4h|.5h|-|
+|Deploy|H|4h|like 5 minutes|-|
 |**Total**|-|**23.5h**|-|-|
 
 
