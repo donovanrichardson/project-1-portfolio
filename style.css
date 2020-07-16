@@ -13,7 +13,11 @@
     backface-visibility: hidden; */
 }
 
-ul{
+#home{
+    /* margin: 0 60px; */
+}
+
+nav > ul{
     left: -50px;
     position: relative;
 }
@@ -30,6 +34,7 @@ nav{
 .bar li{ /* for lis in nav */
     display: block;
     flex-direction: row;
+    margin: 0 15px;
     /* max-width: 200px; */ /* idk if i wanna keep this */ /* .bar's displat:flex made me not need this */
 }
 
@@ -80,6 +85,25 @@ nav{
     background-color: #7f7f7f7f;
 }
 
+.desktop{
+    display: none;
+}
+
+.button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    /* border: 3px solid #fff;
+    color: #fff; */
+    /* https://github.com/codeSTACKr/hamburger-animation */
+    /* https://www.youtube.com/watch?v=dIyVTjJAkLw */
+}
+
 @media(min-width:700px){
 
     h1{
@@ -89,14 +113,10 @@ nav{
 
     
     .bar{
-        padding: 0;
+        /* padding: 0; */
         display:grid;
         grid-template-columns: 2fr 2fr;
         /* justify-content: space-around; */
-    }
-
-    .bar li{ /* for lis in nav */
-        margin: 0 60px;
     }
     
 
@@ -123,18 +143,7 @@ nav{
     }
 
     .button{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-        transition: all .5s ease-in-out;
-        border: 3px solid #fff;
-        color: #fff;
-        /* https://github.com/codeSTACKr/hamburger-animation */
-        /* https://www.youtube.com/watch?v=dIyVTjJAkLw */
+        display: none;
     }
 
     .burger{
@@ -171,6 +180,11 @@ nav{
     /* hide mobile bar */
     .collapsible, .collapsible *{
         display: none;
+    }
+
+    .desktop{
+        display: flex;
+        /* justify-content: space-between; */
     }
 
 
@@ -218,9 +232,7 @@ iframe{
     /* margin: 0 auto; */
 }
 
-.desktop{
-    display: none;
-}
+
 
 [type='submit']{
     margin: 0 0 0 50%;

@@ -4,76 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://use.fontawesome.com/6afab2867b.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
     <script src="app.js" defer></script>
     <title>Donovan Richardson</title>
 </head>
-<body>
-    <h1>Donovan Richardson</h1> 
-    <nav> <!-- color scheme backround -->
-        <!-- probably flex -->
-        <ul class='gray bar'>
-            <li id='home'>Homepage</li>
-            <li id='others' class='mobile'>
-                <ul>
-                    <li>
-                        <div class='button'>
-                            <i class="fa fa-bars" aria-hidden="true"></i>
-                        </div>
-                    </li>
+<body id='homepage'> <!-- has a picture background -->
+    <div class='frost'> <!-- has a frosty background -->
+        <h1>Donovan Richardson</h1>
+        <nav> <!-- color scheme backround -->
+            <!-- probably flex -->
+            <ul class='gray bar'>
+                <li id='home'>Homepage</li>
+                <li id='others' class=''>
+                    <ul>
+                        <li>
+                            <div class='button mobile'>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </div>
+                            <ul class='desktop bar'>
+                                <li><a href="./about/index.html">About Me</a></li>
+                                <li>Resume</li>
+                                <li>Example</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
                 </ul>
-            </li>
-            <div class='desktop bar'>
-                <li>About Me</li>
-                <li>Resume</li>
+        </nav>
+        <div class="collapsible">
+            <li><a href="./about/index.html">About Me</a></li>
+            <li>Resume</li>
+            <li>Example</li>
+        </div>
+        <section> <!-- no bg -->
+            <h2></h2> <!-- content? -->
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore maxime doloremque optio praesentium necessitatibus officia expedita repellat corrupti accusantium quae, consectetur perferendis nulla tenetur corporis eveniet nostrum illo fugiat in.</p>
+        </section> 
+        <section class='projects'><!-- container -->
+        </section>
+        <section class='form'> <!-- contact me -->
+            <!-- <h2>Contact me!</h2> --> <!-- duplicate -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScazzafKo3JPCWV6wlZKn3rKGh51q_v9Nw74ptWgtkNz78DMA/viewform?embedded=true" width="500" height="706" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <!-- I would like to make the scrollbars go away. Also I don't think it's centered^^^ -->
+            <div>
+                <a href="https://www.linkedin.com/in/donovan-richardson/"><i class="fa fa-linkedin" aria-hidden="true" title="LinkedIn"></i>
+                </a>
+                <a href="https://github.com/donovanrichardson"><i class="fa fa-github" aria-hidden="true" title="GitHub"></i></a>
             </div>
-            </ul>
-    </nav>
-    <div class="collapsible">
-        <li><a href="./about/index.html">About Me</a></li>
-        <li>Resume</li>
-        <li>Example</li>
+        </section>
+        <footer>
+            Background from <a href="https://commons.wikimedia.org/wiki/File:Back_Bay_skyline_from_Arnold_Arboretum_(2),_November_1975.jpg">wikimedia</a>
+            .
+        </footer>
     </div>
-    <div> 
-        <div class="pic"></div><!-- add a pic at a beach -->
-        <div class="prof">
-            <img id='mariah' src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Carey_Glamour_May_2018.png" alt="Me. I Am. The Elusive Chanteuse">
-        </div>
-        <div class="text">
-            <p>Hi! I'm a software engineer based on Long Island.</p>
-        </div>
-    </div>
-    <div> 
-        <div class="pic"></div>
-        <div class="text">
-            <p>Right now I am in a Software Engineering bootcamp with General Assembly.</p>
-        </div>
-    </div>
-    <div> 
-        <div class="pic"></div>
-        <div class="text">
-            <p>I enjoy simplifying complicated reality into comprehensible elements.</p>
-        </div>
-    </div>
-    <div> 
-        <div class="pic"></div>
-        <div class="text">
-            <p>I think it's important to look for sources of data that show various patterns...</p>
-        </div>
-    </div>
-    <div> 
-        <div class="pic"></div>
-        <div class="text">
-            <p>...as well as to recognize different kinds of problems based on these patterns.</p>
-        </div>
-    </div>
- 
-    <footer>
-        Background from <a href="https://commons.wikimedia.org/wiki/File:Abandoned_van_in_Marine_Park_(91076).jpg">wikimedia</a>.
-    </footer>
 </body>
 </html>
