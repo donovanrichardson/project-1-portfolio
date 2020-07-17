@@ -172,8 +172,9 @@ nav{
     }
 
     .form{ /* the section with class form */
-        margin: 0 auto; 
-        width: 400px;
+        /* margin: 0 auto; 
+        width: 400px; */
+        margin: 0 auto;
     }
 
 
@@ -200,9 +201,9 @@ h2{
 }
 
 form > :not([type='submit']){
-    margin: 5px;
+    /* margin: 5px;
     display:block; 
-    width: 100%
+    width: 100% */
 }
 
 .projects > article{
@@ -230,11 +231,25 @@ form > :not([type='submit']){
 }
 
 iframe{
-    /* margin: 0 auto; */
+    margin: 0 auto;
+    /* background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden; */
+}
+
+.form{ /* the section with class form */
+    /* margin: 0 auto; 
+    width: 400px; */
+    text-align: center;
 }
 
 
 
 [type='submit']{
     margin: 0 0 0 50%;
+}
+
+.fa-linkedin, .fa-github{
+    font-size: 50px;
 }
