@@ -189,6 +189,10 @@ nav{
         /* justify-content: space-between; */
     }
 
+    .mobile{
+        display: none;
+    }
+
 
 }
 
