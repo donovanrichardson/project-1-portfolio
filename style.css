@@ -8,13 +8,6 @@
     background-size: cover;
     background-position: center;
     overflow-x:hidden; /* https://stackoverflow.com/a/23367521/9608521 */
-    /*  background-size: cover;
-    background-repeat: no-repeat;
-    backface-visibility: hidden; */
-}
-
-#home{
-    /* margin: 0 60px; */
 }
 
 nav > ul{
@@ -35,19 +28,7 @@ nav{
     display: block;
     flex-direction: row;
     margin: 0 15px;
-    /* max-width: 200px; */ /* idk if i wanna keep this */ /* .bar's displat:flex made me not need this */
-}
-
-
-.button > *{
-    /* color: #fff;
-    font-size: 40px;
-    line-height: 0;
-    margin: auto; */
-}
-
-.button{
-    /* display: none; */
+    /* max-width: 200px; */ /* .bar's display:flex made me not need this */
 }
 
 .collapsible{
@@ -56,7 +37,6 @@ nav{
     border-radius: 15px;
     display:none;
     position: relative;
-    /* right: -20px; */
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -99,8 +79,6 @@ nav{
     height: 40px;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    /* border: 3px solid #fff;
-    color: #fff; */
     /* https://github.com/codeSTACKr/hamburger-animation */
     /* https://www.youtube.com/watch?v=dIyVTjJAkLw */
 }
@@ -120,10 +98,8 @@ nav{
 
     
     .bar{
-        /* padding: 0; */
         display:grid;
         grid-template-columns: 2fr 2fr;
-        /* justify-content: space-around; */
     }
     
 
@@ -174,12 +150,9 @@ nav{
 
     .projects > article{
         width: calc(25% + 30px);
-        /* flex: 1fr 1fr calc(33% - 2rem); */
     }
 
     .form{ /* the section with class form */
-        /* margin: 0 auto; 
-        width: 400px; */
         margin: 0 auto;
     }
 
@@ -192,7 +165,6 @@ nav{
 
     .desktop{
         display: flex;
-        /* justify-content: space-between; */
     }
 
     .mobile{
@@ -214,12 +186,6 @@ h2{
     text-align: center;
 }
 
-form > :not([type='submit']){
-    /* margin: 5px;
-    display:block; 
-    width: 100% */
-}
-
 .projects > article{
     border-radius: 1em;
     margin: 2.5%;
@@ -235,7 +201,6 @@ form > :not([type='submit']){
 }
 
 .projects h3{
-    /* text-align: center; */
     border-bottom: 1px solid black;
 }
 
@@ -246,15 +211,9 @@ form > :not([type='submit']){
 
 iframe{
     margin: 0 auto;
-    /* background-color: transparent;
-    border: 0px none transparent;
-    padding: 0px;
-    overflow: hidden; */
 }
 
 .form{ /* the section with class form */
-    /* margin: 0 auto; 
-    width: 400px; */
     text-align: center;
 }
 
@@ -263,10 +222,6 @@ iframe{
 [type='submit']{
     margin: 0 0 0 50%;
 }
-
-/* .fa-linkedin, .fa-github{
-    font-size: 50px;
-} */
 
 .introduction{
     max-width: 600px;

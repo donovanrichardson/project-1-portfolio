@@ -10,14 +10,12 @@ h1{
 
 .pic, .text{
     height: max(160px, 13vw);
-    /* border: 1px solid red; */
     max-width: max(400px, 60vw);
     margin: 0 auto;
     position: relative;
     top: 0;
     left: 0;
     text-align: center;
-    /* text-align: center; */
 }
 
 .pic{
@@ -40,10 +38,4 @@ h1{
     /* display:flex; */ /* text-align: center; in .text will center the pic. if you take that out, this will also center the pic */
     height: 50px;
     text-align: center;
-    /* border: 1px solid black; */
 }
-
-.form{
-    display: none;
-}
-
