@@ -105,6 +105,12 @@ nav{
     /* https://www.youtube.com/watch?v=dIyVTjJAkLw */
 }
 
+.icons{
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+}
+
 @media(min-width:700px){
 
     h1{
@@ -193,6 +199,10 @@ nav{
         display: none;
     }
 
+    .icons{
+        font-size: 50px;
+    }
+
 
 }
 
@@ -254,6 +264,17 @@ iframe{
     margin: 0 0 0 50%;
 }
 
-.fa-linkedin, .fa-github{
+/* .fa-linkedin, .fa-github{
     font-size: 50px;
+} */
+
+.introduction{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align:justify;
 }
+
+a{
+    color: #00007f;
+}
+
