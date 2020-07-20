@@ -11,6 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
+    <script src="../nav.js" defer></script>
     <script src="script.js" defer></script>
     <title>About Me -- Donovan Richardson</title>
 </head>
@@ -28,8 +29,7 @@
                             </div>
                             <ul class='desktop bar'>
                                 <li><a href="#">About Me</a></li>
-                                <li>Resume</li>
-                                <li>Example</li>
+                                <li><a href="https://www.dropbox.com/s/prvn95m6hoowuyh/donovan-richardson-resume.pdf?dl=0">Resume</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -38,13 +38,12 @@
         </nav>
         <div class="collapsible">
             <li><a href="#">About Me</a></li>
-            <li>Resume</li>
-            <li>Example</li>
+            <li><a href="https://www.dropbox.com/s/prvn95m6hoowuyh/donovan-richardson-resume.pdf?dl=0">Resume</a></li>
         </div>
         <div> 
             <div class="pic"></div><!-- add a pic at a beach -->
             <div class="prof">
-                <img id='mariah' src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Carey_Glamour_May_2018.png" alt="Me. I Am. The Elusive Chanteuse">
+                <img id='me' src="https://donovanrichardson.github.io/img/my-photo.png" alt="Donovan Richardson">
             </div>
             <div class="text">
                 <p>Hi! I'm a software engineer based on Long Island.</p>
@@ -69,14 +68,20 @@
             </div>
         </div>
         <div> 
-            <div class="pic"></div>
+            <div class="pic" id='sand'></div>
             <div class="text">
                 <p>...as well as to recognize different kinds of problems based on these patterns.</p>
             </div>
         </div>
+        <div> 
+            <div class="pic"></div>
+            <div class="text">
+                <p>My resume can be found <a href="https://www.dropbox.com/s/prvn95m6hoowuyh/donovan-richardson-resume.pdf?dl=0">here</a>.</p>
+            </div>
+        </div>
      
         <footer>
-            Background from <a href="https://commons.wikimedia.org/wiki/File:Abandoned_van_in_Marine_Park_(91076).jpg">wikimedia</a>.
+            <!-- Attribution -->
         </footer>
 </body>
 </html>

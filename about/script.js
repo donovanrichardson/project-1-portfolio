@@ -24,11 +24,11 @@ const about = (pics) => {
     console.log(bgs)
 
     bgs.each(function(i){
-        $(this).css('background',`url(${pics[i].url})`)
+        $(this).css('background-image',`url(${pics[i].url})`)
         console.log(this)
         // i++
     })
 
 }
 
-// api(url)
+api(url)

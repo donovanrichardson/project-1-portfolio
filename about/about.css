@@ -9,24 +9,30 @@ h1{
 
 .pic, .text{
     height: max(160px, 13vw);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     max-width: max(400px, 60vw);
     margin: 0 auto;
     position: relative;
     top: 0;
     left: 0;
+    text-align: center;
     /* text-align: center; */
 }
 
 .pic{
     background-position: center;
     background-size: cover;
+    border-radius: 10px;
 }
 
-#mariah{
+#me{
     position: relative;
-    height: 200%;
+    object-fit: cover;
+    height: 100px;
+    width:100px;
     top: -100%;
+    border-radius:70px;
+    border:5px solid #32452f;
 }
 
 .prof{
