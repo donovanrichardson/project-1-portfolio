@@ -137,7 +137,7 @@ nav{
 
     #others > ul{
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-end;
     }
     
     .bar li{ /* for lis in nav */
