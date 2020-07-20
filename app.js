@@ -25,7 +25,11 @@ const app = (projects) => {
     // creates a jQuery DOM element based on an individual project object
     const createProjectElement = (project) => {
         const $art = $('<article>').addClass("gray")
-        $art.append($('<h3>').text(project.title))
+        if(project.url){
+            $art.append($('<a>').attr('href', project.url).append($('<h3>').text(project.title)))
+        }else{
+            $art.append($('<h3>').text(project.title))
+        }
         // $div.append($('<img>').attr('src', project.image))
         $art.append($('<p>').addClass("description").text(project.description))
         $art.append($('<img>').attr('src',project.image).attr('alt',project.title))
