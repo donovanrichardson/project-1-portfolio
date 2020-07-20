@@ -4,7 +4,7 @@ const api = (url) =>{
     fetch(url)
     .then(resp => resp.json())
     .then(data =>{
-        console.log(data)
+        // console.log(data)
         const pics = data.feed.entry.map(e=>{
             // console.log(e)
             return{
@@ -12,21 +12,19 @@ const api = (url) =>{
                 desc: e.gsx$desc.$t
             }
         })
-        console.log(pics)
+        // console.log(pics)
         about(pics)
     })
 }
 
 const about = (pics) => {
 
-    // let i = 0;
     let bgs = $('.pic')
-    console.log(bgs)
+    // console.log(bgs)
 
     bgs.each(function(i){
         $(this).css('background-image',`url(${pics[i].url})`)
-        console.log(this)
-        // i++
+        // console.log(this)
     })
 
 }
